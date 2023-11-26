@@ -1,0 +1,189 @@
+@media (max-width: 1070px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navigation-section {
+        width: 150px;
+        padding-right: 0;
+
+    }
+
+    .headline {
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .headline {
+        padding-right: 0;
+    }
+
+    .navigation-section img {
+        height: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nav-icons p {
+        font-size: 14px;
+
+    }
+
+    .nav-icons:hover {
+        width: auto;
+        margin-top: 0;
+    }
+
+    #firstStoryPost {
+        display: none;
+    }
+
+    .storyIcons img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .storyIcons p {
+        font-size: 14px;
+    }
+
+    #lastStoryPost {
+        display: none;
+    }
+
+    .contentPost {
+        width: 310px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .postImage img {
+        width: 100%;
+    }
+
+    .postIcons img {
+        height: 25px;
+    }
+
+    .sendCommentButton {
+        height: 33px;
+    }
+
+    .sendCommentButton img {
+        height: 25px;
+    }
+
+    .postDescription {
+        font-size: 15px;
+    }
+
+    .follow-section {
+        width: 150px;
+    }
+
+    .myProfile {
+        width: 150px;
+    }
+
+    .myProfile p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .recommendedProfiles {
+        width: 150px;
+    }
+
+    .recommendedProfileInfo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .recommendedProfiles p {
+        font-size: 14px;
+    }
+
+    .recommendedProfiles span {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 795px) {
+    .follow-section {
+        display: none;
+    }
+
+    .navigation-section {
+        width: 50px;
+        padding-left: 2px;
+        align-items: center;
+    }
+
+    .navigation-section img {
+        margin-right: 0;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .nav-icons p {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:430px) {
+    .navigation-section {
+        display: none;
+    }
+
+    .contentHeader {
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .dropbtn img {
+        height: 45px;
+    }
+
+    .dropdown-content img {
+        height: 30px;
+    }
+
+    .storyIcons img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .storyIcons p {
+        font-size: 12px;
+    }
+
+    .dropDiv {
+        display: flex;
+        align-items: center;
+    }
+}

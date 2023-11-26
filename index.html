@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photogram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-style.css">
+    <link rel="icon" href="./img/camera.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body onload="showPost()">
+    <div class="fullPage">
+        <div class="navigation-section">
+            <a href="#">
+                <div class="headline">
+                    <img src="./img/camera.png">
+                    <h1>Photogram</h1>
+                </div>
+            </a>
+            <div class="icons-top">
+                <a href="#">
+                    <div class="nav-icons">
+                        <img src="./img/homepage.png">
+                        <p>Homepage</p>
+                    </div>
+                </a>
+                <div>
+                    <a href="#">
+                        <div class="nav-icons">
+                            <img src="./img/compass.png">
+                            <p>Discover</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-icons">
+                            <img src="./img/play-button.png">
+                            <p>Reels</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-icons">
+                            <img src="./img/notification.png">
+                            <p>Notifications</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-icons">
+                            <img src="./img/message.png">
+                            <p>Messages</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-icons">
+                            <img src="./img/bookmark.png">
+                            <p>Saved Posts</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-icons">
+                            <img src="./img/add.png">
+                            <p>Create Post</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="icon-bottom">
+                <div class="nav-icons">
+                    <img src="./img/settings.png">
+                    <p>Settings</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-section">
+        <div class="contentHeader">
+            <div class="dropdown">
+                <button class="dropbtn"> <img src="./img/camera.png">
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">
+                        <div class="dropDiv"> <img src="./img/homepage.png"> Homepage</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"> <img src="./img/compass.png"> Discover</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"><img src="./img/play-button.png">Reels</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"> <img src="./img/notification.png">Notifications</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"><img src="./img/message.png">Messages</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"> <img src="./img/bookmark.png">Saved Posts</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"> <img src="./img/add.png">Create Post</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropDiv"> <img src="./img/settings.png">Settings</div>
+                    </a>
+                </div>
+            </div>
+            <div class="storyPosts">
+                <div id="firstStoryPost" class="storyIcons">
+                    <img src="./img/profile-img/profile-me.png" alt="">
+                    <p>Julian</p>
+                </div>
+                <div class="storyIcons">
+                    <img src="./img/profile-img/profile4.jpg" alt="">
+                    <p>Kate</p>
+                </div>
+                <div class="storyIcons">
+                    <img src="./img/profile-img/profile5.jpg" alt="">
+                    <p>Patrick</p>
+                </div>
+                <div class="storyIcons">
+                    <img src="./img/profile-img/profile6.jpg" alt="">
+                    <p>Betty</p>
+                </div>
+                <div class="storyIcons">
+                    <img src="./img/profile-img/profile7.jpg" alt="">
+                    <p>Catherine</p>
+                </div>
+                <div class="storyIcons">
+                    <img src="./img/profile-img/profile8.jpg" alt="">
+                    <p>Stephan</p>
+                </div>
+                <div id="lastStoryPost" class="storyIcons">
+                    <img src="./img/profile-img/profile3.jpg" alt="">
+                    <p>James</p>
+                </div>
+            </div>
+        </div>
+        <div id="post-container"></div>
+    </div>
+    <div class="follow-section">
+        <div class="myProfile">
+            <img src="./img/profile-img/profile-me.png" alt="">
+            <p>Your Profile</p>
+        </div>
+        <div class="followProfiles">
+            <h2>Recommended for you</h2>
+            <div class="recommendedProfiles">
+
+                <div class="recommendedProfileInfo">
+                    <img src="./img/profile-img/profile9.jpg" alt="">
+                    <p>Lena Smith</p>
+                </div>
+
+                <span>Follow</span>
+            </div>
+            <div class="recommendedProfiles">
+
+                <div class="recommendedProfileInfo">
+                    <img src="./img/profile-img/profile10.jpg" alt="">
+                    <p>Dan Key</p>
+                </div>
+
+                <span>Follow</span>
+            </div>
+            <div class="recommendedProfiles">
+
+                <div class="recommendedProfileInfo">
+                    <img src="./img/profile-img/profile11.jpg" alt="">
+                    <p>Lars Kaldor</p>
+                </div>
+
+                <span>Follow</span>
+            </div>
+            <div class="recommendedProfiles">
+
+                <div class="recommendedProfileInfo">
+                    <img src="./img/profile-img/profile12.jpg" alt="">
+                    <p>Jason Monte</p>
+                </div>
+
+                <span>Follow</span>
+            </div>
+            <div class="recommendedProfiles">
+
+                <div class="recommendedProfileInfo">
+                    <img src="./img/profile-img/profile13.jpg" alt="">
+                    <p>Paula Therin</p>
+                </div>
+
+                <span>Follow</span>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© Julian 2023</p>
+            <p>Icons by <a href="https://icons8.com/icons" target="_blank">icons8.com</a></p>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
